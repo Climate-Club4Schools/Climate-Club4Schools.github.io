@@ -17,7 +17,7 @@
   background: #2E4053;
   overflow: auto;
   width: 100%;
-  min-height: 85px;
+  min-height:65px;
   z-index: 1;
 }
 .nav-ini a {
@@ -25,6 +25,18 @@
   color: white;
   float: left;
   margin: 5px 0 0 30px;
+}
+.nav-logo {
+  display: inline-block;
+  color: white;
+  float: right;
+  margin: 5px 0 0 50px;
+}
+.nav-stripes {
+  display: inline-block;
+  color: white;
+  height: 50px;
+  width: 100%
 }
 .nav-items {
   display: inline-block;
@@ -57,7 +69,7 @@
 
 .about .container {
   display: flex;
-  padding: 130px 0 0 0;
+  padding: 150px 0 0 0;
   width: 80%;
   line-height: 1.3;
 }
